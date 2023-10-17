@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "entries": [
+    {
+      "API": "arcsecond.io",
+      "Description": "Multiple astronomy data sources",
+      "Auth": "",
+      "HTTPS": true,
+      "Cors": "unknown",
+      "Link": "https://api.arcsecond.io/",
+      "Category": "Science & Math"
+    }
+  ]
+}
