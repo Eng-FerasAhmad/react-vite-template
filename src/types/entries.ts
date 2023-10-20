@@ -4,11 +4,11 @@ export interface EntryViewModel {
 }
 
 export interface Entries {
-  API: string;
-  Description: string;
-  Auth: string;
-  HTTPS: boolean;
-  Cors: string;
-  Link: string;
-  Category: string;
+  api: string;
+  description: string;
+  auth: string;
+  https: boolean;
+  cors: string;
+  link: string;
+  category: string;
 }

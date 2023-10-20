@@ -2,13 +2,13 @@
   "count": 1,
   "entries": [
     {
-      "API": "arcsecond.io",
-      "Description": "Multiple astronomy data sources",
-      "Auth": "",
-      "HTTPS": true,
-      "Cors": "unknown",
-      "Link": "https://api.arcsecond.io/",
-      "Category": "Science & Math"
+      "api": "arcsecond.io",
+      "description": "Multiple astronomy data sources",
+      "auth": "",
+      "https": true,
+      "cors": "unknown",
+      "link": "https://api.arcsecond.io/",
+      "category": "Science & Math"
     }
   ]
 }

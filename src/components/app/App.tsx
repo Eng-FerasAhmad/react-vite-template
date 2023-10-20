@@ -1,6 +1,6 @@
 import { AppCommonText } from '../../constant/commonText';
 import Entry from '../entry/Entry';
-import './App.css';
+import './app.scss';
 
 export default function App(): JSX.Element {
   return (
