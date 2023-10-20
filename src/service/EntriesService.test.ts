@@ -31,4 +31,20 @@ describe('EnteriesService', () => {
       expect(error.message).toBe('Request failed with status code 404');
     });
   });
+
+  test('should handle internal server error', () => {
+    mockAdapter.onGet(entryApi).reply(statusCode.INTERNAL_SERVER_ERROR);
+    const { promise } = EntriesService.fetchViewModel();
+    promise.catch((error: AxiosError) => {
+      expect(error.message).toBe('Request failed with status code 500');
+    });
+  });
+
+  test('should handle network error', () => {
+    mockAdapter.onGet(entryApi).networkError();
+    const { promise } = EntriesService.fetchViewModel();
+    promise.catch((error: AxiosError) => {
+      expect(error.message).toBe('Network Error');
+    });
+  });
 });

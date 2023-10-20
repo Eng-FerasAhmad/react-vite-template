@@ -1,6 +1,11 @@
+@import '../../style/color.scss';
+@import '../../style/font.scss';
+@import '../../style/pixelToRem.scss';
+
 .app {
-  color: rgb(5, 193, 245);
-  font-size: 2rem;
+  @include pixelToRem(font-size, $font-size-header-md);
+
+  color: $color-primary;
   width: fit-content;
   margin: auto;
 }
